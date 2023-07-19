@@ -10,6 +10,11 @@
 </head>
 <body>
 
+{% if x == True %}
+    <p style="color : white;"> {{name}} is in your friend list </p>
+{% else %}
+    <p style="color : white;"> Invalid. {{name}} is not a part of your friend list </p>
+{% endif %}
 
 
 </body>
